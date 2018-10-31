@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33905886266539008}
   - component: {fileID: 23983508004343936}
   - component: {fileID: 114747838213121884}
+  - component: {fileID: 114616568748419250}
   - component: {fileID: 114582671902182872}
   m_Layer: 0
   m_Name: Player
@@ -58,7 +59,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a4ac270efcdceb8438b4785912b38882, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -96,6 +97,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8945bac2e645f5d488eef005610cc308, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114616568748419250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1784852997638824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
 --- !u!114 &114747838213121884
 MonoBehaviour:
   m_ObjectHideFlags: 1
